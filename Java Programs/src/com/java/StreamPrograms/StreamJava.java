@@ -11,6 +11,8 @@ public class StreamJava {
     public static void main(String[] args) {
         List<Integer> nums = Arrays.asList(10, 2, 22, 5, 10, 13, 7, 22, 34, 10, 6);
 
+
+
         System.out.println("1) Given the list of integers, find the first element of the list using stream function");
         nums.stream().findFirst().ifPresent(System.out::println);
 

@@ -21,7 +21,7 @@ public class MainClass {
 
 
         // ifPresent() it accept consumer interface type functionality
-        // if value is present then implemetn consumer interface with lambda
+        // if value is present then implement consumer interface with lambda
         n2.ifPresent(value -> System.out.println(value.toUpperCase()));
 
         n2.ifPresentOrElse(

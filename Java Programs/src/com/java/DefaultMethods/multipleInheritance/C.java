@@ -3,7 +3,7 @@ package com.java.DefaultMethods.multipleInheritance;
 public class C implements A, B {
 
     @Override
-    // overriding same or common method of interface A and interface B in  implemented
+    // overriding same or common method of interface A and interface B in implemented class
     public void demo(){
         // if you want to access default method with same name and signature in two different interface
         // in implemented class then that can be done by using below steps.
